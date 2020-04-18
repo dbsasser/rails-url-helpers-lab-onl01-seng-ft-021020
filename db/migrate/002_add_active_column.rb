@@ -1,5 +1,5 @@
 class AddActiveColumn < ActiveRecord::Migration
   def change
-    add_column 
+    add_column
   end
 end 
