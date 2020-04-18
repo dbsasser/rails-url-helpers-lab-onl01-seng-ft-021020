@@ -6,7 +6,6 @@ class StudentsController < ApplicationController
   end
 
   def show
-    @student.active ? (@status = active) : (@status = inactive)
   end
 
   private
